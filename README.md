@@ -1,6 +1,14 @@
-word2vec-api
-============
+# Word2vec
 
+## Training
+
+To Train word2vec use word2vec_train.py<br>
+
+### How to use
+```
+python word2vec_train.py corpus_name model_name
+```
+## API 
 Simple web service providing a word embedding API. The methods are based on Gensim Word2Vec implementation. Models are passed as parameters and must be in the Word2Vec text or binary format.
 
 * Launching the service
